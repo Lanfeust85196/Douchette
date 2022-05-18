@@ -1,9 +1,9 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, \
     QVBoxLayout, QLabel, QLineEdit
-from PyQt5.QtCore import QEvent, QObject
+from PyQt5.QtCore import QEvent
 from PyQt5.QtGui import QKeyEvent
-from PyQt5 import Qt
+from PyQt5.QtCore import Qt
 
 
 class Fenetre(QWidget):
@@ -41,16 +41,16 @@ class Fenetre(QWidget):
 
     # définition d'un filtre d'évènement sur le champ text pour récupérer le "Enter"
     def eventFilter(self, obj, event):
-        print(event.type() == QEvent.KeyPress)
-        if event.type() == QEvent.KeyPress:
-            keyevent = QKeyEvent(event)
-            print(keyevent.key())
-            if keyevent.key() == Qt.Key_Enter:
-                # Special tab handling
-                return True
-            else:
-                return False
+        if obj == self.champ:
+            if event.type() == QEvent.KeyPress:
+                keyevent = QKeyEvent(event)
+                if keyevent.key() == Qt.Key_Enter or keyevent.key() == Qt.Key_Return:
+                    print("ICI")
+                    return True
+                else:
+                    return False
 
+            return False
         return False
 
 
