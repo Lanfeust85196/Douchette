@@ -1,1 +1,16 @@
-2022-05-18 21:50:13,130 Database DEBUG:__Init__
+
+2022-05-19 11:59:45,757	LabelEdit	DEBUG	Fin __Init__
+2022-05-19 11:59:50,041	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:51,045	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:51,772	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:52,380	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:52,876	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:53,358	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 11:59:54,262	LabelEdit	DEBUG	Fin eventFilter False
+2022-05-19 12:00:01,683	Database	DEBUG	Fin __Init__
+2022-05-19 12:00:01,684	Database	DEBUG	Fin connect
+2022-05-19 12:00:01,685	Database	DEBUG	Fin find_site = False
+2022-05-19 12:00:01,685	Database	DEBUG	Exception insert_site : no such table: Lixeu
+2022-05-19 12:00:01,686	LabelEdit	DEBUG	eventFilter=>Insert new site
+2022-05-19 12:00:01,686	Database	DEBUG	Fin close
+2022-05-19 12:00:01,686	LabelEdit	DEBUG	Fin eventFilter True
