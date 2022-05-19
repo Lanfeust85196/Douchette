@@ -1,189 +1,48 @@
-
-2022-05-19 11:59:45,757	LabelEdit	DEBUG	Fin __Init__
-2022-05-19 11:59:50,041	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:51,045	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:51,772	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:52,380	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:52,876	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:53,358	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 11:59:54,262	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 12:00:01,683	Database	DEBUG	Fin __Init__
-2022-05-19 12:00:01,684	Database	DEBUG	Fin connect
-2022-05-19 12:00:01,685	Database	DEBUG	Fin find_site = False
-2022-05-19 12:00:01,685	Database	DEBUG	Exception insert_site : no such table: Lixeu
-2022-05-19 12:00:01,686	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 12:00:01,686	Database	DEBUG	Fin close
-2022-05-19 12:00:01,686	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:41:18,021	LabelEdit	DEBUG	Fin __Init__
-2022-05-19 13:41:29,244	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,245	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,556	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,561	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,562	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,562	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,562	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,563	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,563	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,563	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,563	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,564	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:41:29,564	Database	DEBUG	Fin __Init__
-2022-05-19 13:41:29,565	Database	DEBUG	Fin connect
-2022-05-19 13:41:29,565	Database	DEBUG	Fin find_site = False
-2022-05-19 13:41:29,566	Database	DEBUG	Exception insert_site : no such table: Lixeu
-2022-05-19 13:41:29,566	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:41:29,566	Database	DEBUG	Fin close
-2022-05-19 13:41:29,566	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:34,571	LabelEdit	DEBUG	Fin __Init__
-2022-05-19 13:42:39,411	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,411	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,723	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,724	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,724	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,724	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,725	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,725	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,725	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,725	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,726	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,726	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:39,726	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:39,727	Database	DEBUG	Fin connect
-2022-05-19 13:42:39,727	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:39,736	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:39,737	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:39,738	Database	DEBUG	Fin close
-2022-05-19 13:42:39,738	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:41,341	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,342	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,344	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,346	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,349	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,355	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,358	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,368	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,371	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,381	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,383	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,390	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:41,393	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:41,394	Database	DEBUG	Fin connect
-2022-05-19 13:42:41,394	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:41,400	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:41,400	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:41,401	Database	DEBUG	Fin close
-2022-05-19 13:42:41,401	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:42,471	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,472	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,474	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,477	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,477	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,483	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,486	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,493	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,499	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,503	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,509	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,513	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:42,521	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:42,521	Database	DEBUG	Fin connect
-2022-05-19 13:42:42,522	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:42,527	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:42,527	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:42,527	Database	DEBUG	Fin close
-2022-05-19 13:42:42,527	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:43,792	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,793	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,796	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,797	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,799	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,803	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,804	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,808	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,811	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,817	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,822	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,827	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:43,835	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:43,835	Database	DEBUG	Fin connect
-2022-05-19 13:42:43,836	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:43,841	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:43,841	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:43,841	Database	DEBUG	Fin close
-2022-05-19 13:42:43,842	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:45,100	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,101	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,104	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,108	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,109	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,111	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,115	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,120	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,125	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,131	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,135	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,141	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:45,146	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:45,147	Database	DEBUG	Fin connect
-2022-05-19 13:42:45,147	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:45,154	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:45,154	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:45,155	Database	DEBUG	Fin close
-2022-05-19 13:42:45,155	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:46,169	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,170	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,181	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,183	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,189	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,192	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,199	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,200	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,203	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,208	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,212	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,217	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:46,225	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:46,225	Database	DEBUG	Fin connect
-2022-05-19 13:42:46,226	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:46,231	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:46,231	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:46,232	Database	DEBUG	Fin close
-2022-05-19 13:42:46,232	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:47,533	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,533	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,533	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,535	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,539	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,545	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,549	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,555	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,561	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,567	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,571	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,577	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:47,583	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:47,583	Database	DEBUG	Fin connect
-2022-05-19 13:42:47,584	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:47,589	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:47,589	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:47,590	Database	DEBUG	Fin close
-2022-05-19 13:42:47,590	LabelEdit	DEBUG	Fin eventFilter True
-2022-05-19 13:42:48,850	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,851	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,853	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,854	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,867	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,869	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,871	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,878	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,879	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,883	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,892	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,892	LabelEdit	DEBUG	Fin eventFilter False
-2022-05-19 13:42:48,897	Database	DEBUG	Fin __Init__
-2022-05-19 13:42:48,897	Database	DEBUG	Fin connect
-2022-05-19 13:42:48,898	Database	DEBUG	Fin find_site = False
-2022-05-19 13:42:48,905	Database	DEBUG	Fin insert_site
-2022-05-19 13:42:48,905	LabelEdit	DEBUG	eventFilter=>Insert new site
-2022-05-19 13:42:48,905	Database	DEBUG	Fin close
-2022-05-19 13:42:48,905	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:25:39,214	LabelEdit	DEBUG	__Init__
+2022-05-19 18:25:39,214	Database	DEBUG	Fin __Init__
+2022-05-19 18:25:51,826	Database	DEBUG	Open Database connection
+2022-05-19 18:25:51,826	Database	DEBUG	select * from Lieu where ID='L56104101022'
+2022-05-19 18:25:51,826	Database	DEBUG	Fin find_site = False
+2022-05-19 18:25:51,826	LabelEdit	DEBUG	eventFilter=>Insert new site : L56104101022
+2022-05-19 18:25:51,826	Database	DEBUG	insert into Lieu('ID','Label') values('L56104101022','L56104101022')
+2022-05-19 18:25:51,832	Database	DEBUG	Fin insert_site
+2022-05-19 18:25:51,832	Database	DEBUG	Database connection close
+2022-05-19 18:25:51,832	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:25:56,469	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120160324
+2022-05-19 18:25:56,469	Database	DEBUG	Open Database connection
+2022-05-19 18:25:56,469	Database	DEBUG	select * from BIEN where ID='56120160324' and LIEU_ID='L56104101022'
+2022-05-19 18:25:56,469	Database	DEBUG	Fin find_bien = False
+2022-05-19 18:25:56,469	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120160324','56120160324','L56104101022')
+2022-05-19 18:25:56,484	Database	DEBUG	Fin insert_bien
+2022-05-19 18:25:56,484	Database	DEBUG	Database connection close
+2022-05-19 18:25:56,484	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:25:57,469	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120170499
+2022-05-19 18:25:57,469	Database	DEBUG	Open Database connection
+2022-05-19 18:25:57,469	Database	DEBUG	select * from BIEN where ID='56120170499' and LIEU_ID='L56104101022'
+2022-05-19 18:25:57,469	Database	DEBUG	Fin find_bien = False
+2022-05-19 18:25:57,469	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120170499','56120170499','L56104101022')
+2022-05-19 18:25:57,485	Database	DEBUG	Fin insert_bien
+2022-05-19 18:25:57,485	Database	DEBUG	Database connection close
+2022-05-19 18:25:57,485	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:25:59,418	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120140174
+2022-05-19 18:25:59,433	Database	DEBUG	Open Database connection
+2022-05-19 18:25:59,433	Database	DEBUG	select * from BIEN where ID='56120140174' and LIEU_ID='L56104101022'
+2022-05-19 18:25:59,433	Database	DEBUG	Fin find_bien = False
+2022-05-19 18:25:59,433	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120140174','56120140174','L56104101022')
+2022-05-19 18:25:59,440	Database	DEBUG	Fin insert_bien
+2022-05-19 18:25:59,440	Database	DEBUG	Database connection close
+2022-05-19 18:25:59,440	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:26:01,004	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120160324
+2022-05-19 18:26:01,004	Database	DEBUG	Open Database connection
+2022-05-19 18:26:01,004	Database	DEBUG	select * from BIEN where ID='56120160324' and LIEU_ID='L56104101022'
+2022-05-19 18:26:01,020	Database	DEBUG	Fin find_bien = True
+2022-05-19 18:26:01,020	Database	DEBUG	Database connection close
+2022-05-19 18:26:01,020	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-19 18:26:10,283	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56119890002
+2022-05-19 18:26:10,283	Database	DEBUG	Open Database connection
+2022-05-19 18:26:10,283	Database	DEBUG	select * from BIEN where ID='56119890002' and LIEU_ID='L56104101022'
+2022-05-19 18:26:10,283	Database	DEBUG	Fin find_bien = False
+2022-05-19 18:26:10,283	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56119890002','56119890002','L56104101022')
+2022-05-19 18:26:10,283	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-19 18:26:10,283	Database	DEBUG	Database connection close
+2022-05-19 18:26:10,283	LabelEdit	DEBUG	Fin eventFilter True

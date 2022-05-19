@@ -6,11 +6,11 @@ class MainWindow(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
-        # field Text creation
-        self.champ = LabelEdit()
-
         # Label creation site
         self.label = QLabel()
+
+        # field Text creation
+        self.champ = LabelEdit(self.label)
 
         # Layout creation
         layout = QVBoxLayout()
