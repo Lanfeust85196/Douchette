@@ -27,11 +27,19 @@ class Database:
 
     def insert_site(self, id_site, label):
         try:
-            self.cur.execute(f"insert into Lixeu('ID','Label') values('{id_site}','{label}')")
+            self.cur.execute(f"insert into Lieu('ID','Label') values('{id_site}','{label}')")
             self.con.commit()
             slogger(f"Fin insert_site", __name__)
         except sqlite3.Error as err:
             slogger(f"Exception insert_site : {err}", __name__)
+
+    def insert_bien(self, id_site, id_bien, label):
+        try:
+            self.cur.execute(f"insert into BIEN('ID','Label', 'LIEU_ID) values('{id_bien}','{label}',{id_site})")
+            self.con.commit()
+            slogger(f"Fin insert_bien", __name__)
+        except sqlite3.Error as err:
+            slogger(f"Exception insert_bien : {err}", __name__)
 
     def close(self):
         self.cur.close()
