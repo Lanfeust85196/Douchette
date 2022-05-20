@@ -4,6 +4,7 @@ from PyQt5.QtCore import QEvent, Qt
 from PyQt5.QtGui import QKeyEvent
 from Database import Database
 from Log import slogger
+from Sound import Sound
 
 
 class LabelEdit(QLineEdit):
@@ -14,6 +15,7 @@ class LabelEdit(QLineEdit):
         self.label = label
         self.data = Database()
         self.site = ""
+        self.sound = Sound()
 
     # Event filter on Text
     def eventFilter(self, obj, event):
@@ -29,11 +31,13 @@ class LabelEdit(QLineEdit):
                         slogger(f"eventFilter=>Site OK : {self.text()}", __name__)
                         self.label.setText(f"site = {self.text()}")
                         self.site = self.text()
+                        self.sound.sound_ok()
                     else:
                         slogger(f"eventFilter=>Insert new site : {self.text()}", __name__)
                         self.label.setText(f"site = {self.text()}")
                         self.site = self.text()
                         self.data.insert_site(self.text(), self.text())
+                        self.sound.sound_ok()
                     self.data.close()
                 elif y:
                     if self.site != "":
@@ -41,16 +45,20 @@ class LabelEdit(QLineEdit):
                         self.data.connect()
                         if self.data.find_bien(self.site, self.text()):
                             self.label.setText(f"Le bien {self.text()} a déjà été scanné dans ce lieu")
+                            self.sound.sound_ko()
                         else:
                             self.data.insert_bien(self.site, self.text(), self.text())
                             self.label.setText(f"site = {self.site} bien = {self.text()}")
+                            self.sound.sound_ok()
                         self.data.close()
                     else:
                         slogger(f"eventFilter=>No site, can't insert new Item : {self.text()}", __name__)
                         self.label.setText("Pas de site sélectionné")
+                        self.sound.sound_ko()
                 else:
                     self.label.setText("Code barre incorrect")
                     slogger(f"eventFilter=>NOK : {self.text()}", __name__)
+                    self.sound.sound_ko()
                 self.setText("")
                 slogger(f"Fin eventFilter True", __name__)
                 return True

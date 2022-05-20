@@ -46,3 +46,175 @@
 2022-05-19 18:26:10,283	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
 2022-05-19 18:26:10,283	Database	DEBUG	Database connection close
 2022-05-19 18:26:10,283	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:52:19,120	LabelEdit	DEBUG	__Init__
+2022-05-20 15:52:19,144	Database	DEBUG	Fin __Init__
+2022-05-20 15:52:27,654	LabelEdit	DEBUG	eventFilter=>No site, can't insert new Item : 56120200364
+2022-05-20 15:52:54,530	LabelEdit	DEBUG	__Init__
+2022-05-20 15:52:54,535	Database	DEBUG	Fin __Init__
+2022-05-20 15:52:58,399	LabelEdit	DEBUG	eventFilter=>No site, can't insert new Item : 56120200364
+2022-05-20 15:53:44,515	LabelEdit	DEBUG	__Init__
+2022-05-20 15:53:44,520	Database	DEBUG	Fin __Init__
+2022-05-20 15:53:47,686	LabelEdit	DEBUG	eventFilter=>No site, can't insert new Item : 56120200364
+2022-05-20 15:53:47,687	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:53:53,804	Database	DEBUG	Open Database connection
+2022-05-20 15:53:53,811	Database	DEBUG	select * from Lieu where ID='L56104101017'
+2022-05-20 15:53:53,820	Database	DEBUG	Fin find_site = True
+2022-05-20 15:53:53,820	LabelEdit	DEBUG	eventFilter=>Site OK : L56104101017
+2022-05-20 15:53:53,820	Database	DEBUG	Database connection close
+2022-05-20 15:53:53,820	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:53:57,482	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120170106
+2022-05-20 15:53:57,482	Database	DEBUG	Open Database connection
+2022-05-20 15:53:57,483	Database	DEBUG	select * from BIEN where ID='56120170106' and LIEU_ID='L56104101017'
+2022-05-20 15:53:57,484	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:53:57,484	Database	DEBUG	Database connection close
+2022-05-20 15:53:57,485	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:53:59,486	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120170107
+2022-05-20 15:53:59,486	Database	DEBUG	Open Database connection
+2022-05-20 15:53:59,487	Database	DEBUG	select * from BIEN where ID='56120170107' and LIEU_ID='L56104101017'
+2022-05-20 15:53:59,487	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:53:59,547	Database	DEBUG	Database connection close
+2022-05-20 15:53:59,547	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:03,780	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120200364
+2022-05-20 15:54:03,780	Database	DEBUG	Open Database connection
+2022-05-20 15:54:03,781	Database	DEBUG	select * from BIEN where ID='56120200364' and LIEU_ID='L56104101017'
+2022-05-20 15:54:03,781	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:54:03,841	Database	DEBUG	Database connection close
+2022-05-20 15:54:03,842	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:08,086	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56119960049
+2022-05-20 15:54:08,086	Database	DEBUG	Open Database connection
+2022-05-20 15:54:08,087	Database	DEBUG	select * from BIEN where ID='56119960049' and LIEU_ID='L56104101017'
+2022-05-20 15:54:08,087	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:08,087	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56119960049','56119960049','L56104101017')
+2022-05-20 15:54:08,095	Database	DEBUG	Fin insert_bien
+2022-05-20 15:54:08,096	Database	DEBUG	Database connection close
+2022-05-20 15:54:08,096	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:14,366	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56119890002
+2022-05-20 15:54:14,366	Database	DEBUG	Open Database connection
+2022-05-20 15:54:14,367	Database	DEBUG	select * from BIEN where ID='56119890002' and LIEU_ID='L56104101017'
+2022-05-20 15:54:14,367	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:14,368	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56119890002','56119890002','L56104101017')
+2022-05-20 15:54:14,368	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:54:14,428	Database	DEBUG	Database connection close
+2022-05-20 15:54:14,428	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:20,088	Database	DEBUG	Open Database connection
+2022-05-20 15:54:20,089	Database	DEBUG	select * from Lieu where ID='L56104101019'
+2022-05-20 15:54:20,089	Database	DEBUG	Fin find_site = True
+2022-05-20 15:54:20,089	LabelEdit	DEBUG	eventFilter=>Site OK : L56104101019
+2022-05-20 15:54:20,153	Database	DEBUG	Database connection close
+2022-05-20 15:54:20,153	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:25,051	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120170106
+2022-05-20 15:54:25,051	Database	DEBUG	Open Database connection
+2022-05-20 15:54:25,052	Database	DEBUG	select * from BIEN where ID='56120170106' and LIEU_ID='L56104101019'
+2022-05-20 15:54:25,052	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:25,052	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120170106','56120170106','L56104101019')
+2022-05-20 15:54:25,053	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:54:25,112	Database	DEBUG	Database connection close
+2022-05-20 15:54:25,112	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:26,284	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120170107
+2022-05-20 15:54:26,284	Database	DEBUG	Open Database connection
+2022-05-20 15:54:26,285	Database	DEBUG	select * from BIEN where ID='56120170107' and LIEU_ID='L56104101019'
+2022-05-20 15:54:26,285	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:26,285	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120170107','56120170107','L56104101019')
+2022-05-20 15:54:26,286	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:54:26,325	Database	DEBUG	Database connection close
+2022-05-20 15:54:26,326	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:27,996	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120200364
+2022-05-20 15:54:27,996	Database	DEBUG	Open Database connection
+2022-05-20 15:54:27,997	Database	DEBUG	select * from BIEN where ID='56120200364' and LIEU_ID='L56104101019'
+2022-05-20 15:54:27,997	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:27,997	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120200364','56120200364','L56104101019')
+2022-05-20 15:54:27,998	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:54:28,058	Database	DEBUG	Database connection close
+2022-05-20 15:54:28,058	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:29,017	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56119960049
+2022-05-20 15:54:29,017	Database	DEBUG	Open Database connection
+2022-05-20 15:54:29,017	Database	DEBUG	select * from BIEN where ID='56119960049' and LIEU_ID='L56104101019'
+2022-05-20 15:54:29,018	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:54:29,018	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56119960049','56119960049','L56104101019')
+2022-05-20 15:54:29,018	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:54:29,046	Database	DEBUG	Database connection close
+2022-05-20 15:54:29,047	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:54:59,668	Database	DEBUG	Open Database connection
+2022-05-20 15:54:59,670	Database	DEBUG	select * from Lieu where ID='L56104101022'
+2022-05-20 15:54:59,670	Database	DEBUG	Fin find_site = True
+2022-05-20 15:54:59,670	LabelEdit	DEBUG	eventFilter=>Site OK : L56104101022
+2022-05-20 15:54:59,729	Database	DEBUG	Database connection close
+2022-05-20 15:54:59,729	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:55:03,263	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120150062
+2022-05-20 15:55:03,263	Database	DEBUG	Open Database connection
+2022-05-20 15:55:03,264	Database	DEBUG	select * from BIEN where ID='56120150062' and LIEU_ID='L56104101022'
+2022-05-20 15:55:03,264	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:55:03,264	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120150062','56120150062','L56104101022')
+2022-05-20 15:55:03,270	Database	DEBUG	Fin insert_bien
+2022-05-20 15:55:03,330	Database	DEBUG	Database connection close
+2022-05-20 15:55:03,330	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:55:04,725	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120150062
+2022-05-20 15:55:04,725	Database	DEBUG	Open Database connection
+2022-05-20 15:55:04,726	Database	DEBUG	select * from BIEN where ID='56120150062' and LIEU_ID='L56104101022'
+2022-05-20 15:55:04,726	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:55:04,726	Database	DEBUG	Database connection close
+2022-05-20 15:55:04,727	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:55:09,449	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120050267
+2022-05-20 15:55:09,449	Database	DEBUG	Open Database connection
+2022-05-20 15:55:09,450	Database	DEBUG	select * from BIEN where ID='56120050267' and LIEU_ID='L56104101022'
+2022-05-20 15:55:09,450	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:55:09,450	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120050267','56120050267','L56104101022')
+2022-05-20 15:55:09,455	Database	DEBUG	Fin insert_bien
+2022-05-20 15:55:09,456	Database	DEBUG	Database connection close
+2022-05-20 15:55:09,457	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:55:10,998	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120050267
+2022-05-20 15:55:10,998	Database	DEBUG	Open Database connection
+2022-05-20 15:55:10,999	Database	DEBUG	select * from BIEN where ID='56120050267' and LIEU_ID='L56104101022'
+2022-05-20 15:55:10,999	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:55:11,000	Database	DEBUG	Database connection close
+2022-05-20 15:55:11,000	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:55:39,707	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120150062
+2022-05-20 15:55:39,707	Database	DEBUG	Open Database connection
+2022-05-20 15:55:39,708	Database	DEBUG	select * from BIEN where ID='56120150062' and LIEU_ID='L56104101022'
+2022-05-20 15:55:39,708	Database	DEBUG	Fin find_bien = True
+2022-05-20 15:55:39,768	Database	DEBUG	Database connection close
+2022-05-20 15:55:39,768	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:59:13,406	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120200364
+2022-05-20 15:59:13,406	Database	DEBUG	Open Database connection
+2022-05-20 15:59:13,407	Database	DEBUG	select * from BIEN where ID='56120200364' and LIEU_ID='L56104101022'
+2022-05-20 15:59:13,407	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:59:13,407	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120200364','56120200364','L56104101022')
+2022-05-20 15:59:13,408	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:59:13,408	Database	DEBUG	Database connection close
+2022-05-20 15:59:13,408	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:59:17,152	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120200364
+2022-05-20 15:59:17,152	Database	DEBUG	Open Database connection
+2022-05-20 15:59:17,153	Database	DEBUG	select * from BIEN where ID='56120200364' and LIEU_ID='L56104101022'
+2022-05-20 15:59:17,153	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:59:17,153	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120200364','56120200364','L56104101022')
+2022-05-20 15:59:17,154	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:59:17,214	Database	DEBUG	Database connection close
+2022-05-20 15:59:17,214	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 15:59:19,984	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120200364
+2022-05-20 15:59:19,984	Database	DEBUG	Open Database connection
+2022-05-20 15:59:19,985	Database	DEBUG	select * from BIEN where ID='56120200364' and LIEU_ID='L56104101022'
+2022-05-20 15:59:19,985	Database	DEBUG	Fin find_bien = False
+2022-05-20 15:59:19,985	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120200364','56120200364','L56104101022')
+2022-05-20 15:59:19,985	Database	DEBUG	Exception insert_bien : UNIQUE constraint failed: Bien.ID
+2022-05-20 15:59:20,046	Database	DEBUG	Database connection close
+2022-05-20 15:59:20,046	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 16:01:42,879	Database	DEBUG	Open Database connection
+2022-05-20 16:01:42,879	Database	DEBUG	select * from Lieu where ID='L56104101019'
+2022-05-20 16:01:42,880	Database	DEBUG	Fin find_site = True
+2022-05-20 16:01:42,880	LabelEdit	DEBUG	eventFilter=>Site OK : L56104101019
+2022-05-20 16:01:42,941	Database	DEBUG	Database connection close
+2022-05-20 16:01:42,941	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 16:01:47,235	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120190026
+2022-05-20 16:01:47,235	Database	DEBUG	Open Database connection
+2022-05-20 16:01:47,236	Database	DEBUG	select * from BIEN where ID='56120190026' and LIEU_ID='L56104101019'
+2022-05-20 16:01:47,236	Database	DEBUG	Fin find_bien = False
+2022-05-20 16:01:47,236	Database	DEBUG	insert into BIEN('ID','Label', 'LIEU_ID') values('56120190026','56120190026','L56104101019')
+2022-05-20 16:01:47,242	Database	DEBUG	Fin insert_bien
+2022-05-20 16:01:47,301	Database	DEBUG	Database connection close
+2022-05-20 16:01:47,301	LabelEdit	DEBUG	Fin eventFilter True
+2022-05-20 16:01:50,804	LabelEdit	DEBUG	eventFilter=>Insert new Item : 56120190026
+2022-05-20 16:01:50,804	Database	DEBUG	Open Database connection
+2022-05-20 16:01:50,804	Database	DEBUG	select * from BIEN where ID='56120190026' and LIEU_ID='L56104101019'
+2022-05-20 16:01:50,805	Database	DEBUG	Fin find_bien = True
+2022-05-20 16:01:50,805	Database	DEBUG	Database connection close
+2022-05-20 16:01:50,806	LabelEdit	DEBUG	Fin eventFilter True
