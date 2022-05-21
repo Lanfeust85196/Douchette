@@ -35,9 +35,20 @@ class Database:
         except sqlite3.Error as err:
             slogger(f"Exception insert_site : {err}", __name__)
 
-    def find_bien(self, id_site, id_bien):
+    def find_site_bien(self, id_site, id_bien):
         slogger(f"select * from BIEN where ID='{id_bien}' and LIEU_ID='{id_site}'", __name__)
         self.cur.execute(f"select * from BIEN where ID='{id_bien}' and LIEU_ID='{id_site}'")
+        lst = self.cur.fetchall()
+        if len(lst) > 0:
+            slogger(f"Fin find_site_bien = True", __name__)
+            return True
+        else:
+            slogger(f"Fin find_site_bien = False", __name__)
+            return False
+
+    def find_bien(self, id_bien):
+        slogger(f"select * from BIEN where ID='{id_bien}'", __name__)
+        self.cur.execute(f"select * from BIEN where ID='{id_bien}'")
         lst = self.cur.fetchall()
         if len(lst) > 0:
             slogger(f"Fin find_bien = True", __name__)

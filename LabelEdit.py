@@ -29,12 +29,14 @@ class LabelEdit(QLineEdit):
                     self.data.connect()
                     if self.data.find_site(self.text()):
                         slogger(f"eventFilter=>Site OK : {self.text()}", __name__)
-                        self.label.setText(f"site = {self.text()}")
+                        text = f"{self.label.text()}\n"
+                        self.label.setText(f"{text}site = {self.text()}")
                         self.site = self.text()
                         self.sound.sound_ok()
                     else:
                         slogger(f"eventFilter=>Insert new site : {self.text()}", __name__)
-                        self.label.setText(f"site = {self.text()}")
+                        text = f"{self.label.text()}\n"
+                        self.label.setText(f"{text}site = {self.text()}")
                         self.site = self.text()
                         self.data.insert_site(self.text(), self.text())
                         self.sound.sound_ok()
@@ -43,20 +45,28 @@ class LabelEdit(QLineEdit):
                     if self.site != "":
                         slogger(f"eventFilter=>Insert new Item : {self.text()}", __name__)
                         self.data.connect()
-                        if self.data.find_bien(self.site, self.text()):
-                            self.label.setText(f"Le bien {self.text()} a déjà été scanné dans ce lieu")
+                        if self.data.find_site_bien(self.site, self.text()):
+                            text = f"{self.label.text()}\n"
+                            self.label.setText(f"{text}Le bien {self.text()} a déjà été scanné dans ce lieu")
+                            self.sound.sound_ko()
+                        elif self.data.find_bien(self.text()):
+                            text = f"{self.label.text()}\n"
+                            self.label.setText(f"{text}Le bien {self.text()} a déjà été scanné")
                             self.sound.sound_ko()
                         else:
                             self.data.insert_bien(self.site, self.text(), self.text())
-                            self.label.setText(f"site = {self.site} bien = {self.text()}")
+                            text = f"{self.label.text()}\n"
+                            self.label.setText(f"{text}site = {self.site} bien = {self.text()}")
                             self.sound.sound_ok()
                         self.data.close()
                     else:
                         slogger(f"eventFilter=>No site, can't insert new Item : {self.text()}", __name__)
-                        self.label.setText("Pas de site sélectionné")
+                        text = f"{self.label.text()}\n"
+                        self.label.setText(f"{text}Pas de site sélectionné")
                         self.sound.sound_ko()
                 else:
-                    self.label.setText("Code barre incorrect")
+                    text = f"{self.label.text()}\n"
+                    self.label.setText(f"{text}Code barre incorrect : {self.text()}")
                     slogger(f"eventFilter=>NOK : {self.text()}", __name__)
                     self.sound.sound_ko()
                 self.setText("")
