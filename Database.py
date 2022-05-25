@@ -1,5 +1,6 @@
 import sqlite3
 from Log import slogger
+from datetime import datetime
 
 
 class Database:
@@ -59,8 +60,12 @@ class Database:
 
     def insert_bien(self, id_site, id_bien, label):
         try:
-            slogger(f"insert into BIEN('ID','Label', 'LIEU_ID') values('{id_bien}','{label}','{id_site}')", __name__)
-            self.cur.execute(f"insert into BIEN('ID','Label', 'LIEU_ID') values('{id_bien}','{label}','{id_site}')")
+            now = datetime.now()
+            dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+            slogger(f"insert into BIEN('ID','Label', 'LIEU_ID', 'DATE') values('{id_bien}','{label}','{id_site}',\
+                '{dt_string}')", __name__)
+            self.cur.execute(f"insert into BIEN('ID','Label', 'LIEU_ID', 'DATE') values('{id_bien}','{label}',\
+                '{id_site}', '{dt_string}')")
             self.con.commit()
             slogger(f"Fin insert_bien", __name__)
         except sqlite3.Error as err:
@@ -70,7 +75,6 @@ class Database:
         slogger(f"Database connection close", __name__)
         self.cur.close()
         self.con.close()
-
 
 
 if __name__ == "__main__":
